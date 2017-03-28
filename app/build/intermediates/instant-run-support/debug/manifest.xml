@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fypyau.resisafe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        name="com.example.fypyau.resisafe.AppController"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.fypyau.resisafe.WelcomeSplashActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.fypyau.resisafe.VisiRegisterActivity" />
+        <activity android:name="com.example.fypyau.resisafe.VisiWlcmActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.fypyau.resisafe.ResiWlcmActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.VisiLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.fypyau.resisafe.LoginTypeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiNavigatorMainActivity"
+            android:label="@string/title_activity_resi_main_menu"
+            android:theme="@style/Resisafemenu.NoActionBar" />
+        <activity android:name="com.example.fypyau.resisafe.EventCreatorActivity" />
+        <activity android:name="com.example.fypyau.resisafe.EventRedemptionCodeActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.QRcodeGeneratorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.fypyau.resisafe.EventLoadingSplashActivity" />
+        <activity android:name="com.example.fypyau.resisafe.VisiRedeemQRcodeActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.VisiNavigatorMainActivity"
+            android:label="@string/title_activity_visi_navigator_main"
+            android:theme="@style/Resisafemenu.NoActionBar" />
+        <activity android:name="com.example.fypyau.resisafe.QRCodeScannerActivity" />
+        <activity android:name="com.example.fypyau.resisafe.ResiEventDetailsActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.VisiUserProfileActivity"
+            android:theme="@style/Resisafemenu.NoActionBar" />
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiEventSearchResultActivity"
+            android:theme="@style/Resisafemenu" />
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiUserSearchResultActivity"
+            android:theme="@style/Resisafemenu" />
+        <activity android:name="com.example.fypyau.resisafe.ResiVisitingDataActivity" />
+        <activity android:name="com.example.fypyau.resisafe.ResiSearchVisitingDataActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiUserProfileActivity"
+            android:theme="@style/Resisafemenu.NoActionBar" />
+        <activity android:name="com.example.fypyau.resisafe.ResiVisitingDataDetailsActivity" />
+        <activity android:name="com.example.fypyau.resisafe.UploadImageActivity" />
+        <activity android:name="com.example.fypyau.resisafe.RegisterConfirmationActivity" />
+        <activity
+            android:name="com.example.fypyau.resisafe.ResiPaymentActivity"
+            android:theme="@style/Resisafemenu" />
+        <activity android:name="com.example.fypyau.resisafe.VisiQRcodeDetailsActivity" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.fypyau.resisafe.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

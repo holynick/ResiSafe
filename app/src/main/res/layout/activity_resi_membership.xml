@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resi_membership"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@color/white"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Your membership fee is overdude!"
+            android:textSize="18dp"
+            android:textColor="@color/checkoutred"
+            android:textStyle="bold"
+            android:id="@+id/tvMembershipstatus"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/exclamationmark"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentLeft="true"
+        android:background="@color/material_blue_grey_800"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Paid On:"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:paddingRight="10dp"
+            android:id="@+id/textView18"
+            android:layout_alignBaseline="@+id/tvLastpaiddate"
+            android:layout_alignBottom="@+id/tvLastpaiddate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validity Period: "
+            android:paddingRight="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_alignBaseline="@+id/tvValiddays"
+            android:layout_alignBottom="@+id/tvValiddays"
+            android:layout_toLeftOf="@+id/tvLastpaiddate"
+            android:layout_toStartOf="@+id/tvLastpaiddate"
+            android:id="@+id/tvValidtype" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Due date: "
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/tvtextview"
+            android:layout_alignBaseline="@+id/tvNextpayment"
+            android:layout_alignBottom="@+id/tvNextpayment"
+            android:layout_toLeftOf="@+id/tvNextpayment"
+            android:layout_toStartOf="@+id/tvNextpayment" />
+
+        <Button
+            android:text="Pay Now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btpay"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAmount"
+            android:layout_toEndOf="@+id/tvAmount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="38dp"
+            android:text="RM 86.90"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:elevation="5dp"
+            android:paddingTop="5dp"
+            android:id="@+id/tvAmount"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="25/6/2017"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/visitback"
+            android:textSize="28dp"
+            android:textColor="@color/grey"
+            android:id="@+id/tvLastpaiddate"
+            android:layout_below="@+id/btpay"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView18"
+            android:layout_toEndOf="@+id/textView18" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="7 days"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:background="@drawable/visitback"
+            android:textSize="28dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvValiddays"
+            android:layout_below="@+id/tvLastpaiddate"
+            android:layout_toRightOf="@+id/tvValidtype"
+            android:layout_toEndOf="@+id/tvValidtype" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="10/7/2017"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:background="@drawable/visitback"
+            android:textSize="28dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvNextpayment"
+            android:layout_below="@+id/tvValiddays"
+            android:layout_alignLeft="@+id/tvValiddays"
+            android:layout_alignStart="@+id/tvValiddays" />
+        \ />
+    </RelativeLayout>
+
+</RelativeLayout>

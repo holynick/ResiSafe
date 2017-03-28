@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\qr_scan.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\qr_scan.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\membership.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\membership.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\detailshouse.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\detailshouse.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\contactsecurity.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\contactsecurity.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\resisafe.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\resisafe.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\arrownavigate.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\arrownavigate.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\resisafeicon.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\resisafeicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\showcheckout.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\showcheckout.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visa.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visa.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tick.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\tick.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\unknownprofile.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\unknownprofile.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\showvisitingdata.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\showvisitingdata.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\arrowrounded.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\arrowrounded.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visisecurity.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visisecurity.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\scan.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\scan.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\detailscourt.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\detailscourt.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\detailspool.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\detailspool.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\exclamationmark.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\exclamationmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visibackground.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visibackground.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\searchvisitingdata.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\searchvisitingdata.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_list.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\ic_list.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\qrcode.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\qrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\createeventbutton.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\createeventbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profilepictest.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\profilepictest.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\eventbackgroundgym.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\eventbackgroundgym.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\detailsgym.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\detailsgym.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\showallvisitingdata.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\showallvisitingdata.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\eventbackgroundpool.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\eventbackgroundpool.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\eventbackgroundhouse.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\eventbackgroundhouse.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\mastercard.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\mastercard.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visitors.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visitors.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\eventbackgroundbadcourt.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\eventbackgroundbadcourt.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\redeemqrcode.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\redeemqrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\eventbackgroundpark.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\eventbackgroundpark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visitordetails.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visitordetails.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\residentlogin.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\residentlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\checkin.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\checkin.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\qrcodelist.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\qrcodelist.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\redeempass.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\redeempass.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\visitorlogin.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\visitorlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\residentbackground.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\residentbackground.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\showcheckin.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\showcheckin.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\detailspark.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\detailspark.png"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\showevents.png",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\drawable-xxhdpi\\showevents.png"
+    }
+]

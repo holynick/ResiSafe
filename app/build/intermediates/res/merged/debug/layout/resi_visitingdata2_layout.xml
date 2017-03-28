@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/showallvisitingdata"
+        android:id="@+id/btShowAllVisitingData"
+        android:elevation="5dp"
+        android:background="@drawable/imgback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/searchvisitingdata"
+        android:id="@+id/btSearchVisitingData"
+        android:scaleType="centerCrop"
+        android:elevation="5dp"
+        android:background="@drawable/imgback"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btShowAllVisitingData"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/showcheckin"
+        android:id="@+id/btShowCheckIn"
+        android:elevation="2dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btSearchVisitingData"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/showcheckout"
+        android:scaleType="centerCrop"
+        android:elevation="2dp"
+        android:id="@+id/btShowCheckOut"
+        android:layout_below="@+id/btSearchVisitingData"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

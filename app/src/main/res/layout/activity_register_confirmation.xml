@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_confirmation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2E4172"
+    tools:context="com.example.fypyau.resisafe.RegisterConfirmationActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src= "@drawable/profilepictest"
+        app:civ_border_width="2dp"
+
+        app:civ_border_color="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="WHD 198"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCarplatenum"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="ID Number: 951102145213"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIcnum"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvCarplatenum"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="012-6882944"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContactnum"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvIcnum"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="YAU YAT WAY"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Confirm and be a member now!"
+        android:background="@drawable/rounded_edittext_focused"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvlinkYES"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/tvContactnum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="No, I cannot be a member yet!"
+        android:textSize="22dp"
+        android:background="@drawable/rounded_edittext_focused"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvlinkNO"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tvlinkYES"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/eventlist"
+    android:background="@drawable/eventbackgroundpool"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:textSize="@dimen/rating" />
+
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/genre"
+        android:paddingBottom="10dp"
+        android:textSize="@dimen/genre" />
+
+
+    <TextView
+        android:id="@+id/releaseYear"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp" />
+    
+    <ImageView
+    android:id="@+id/arrowimage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>

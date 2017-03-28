@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\visi_navigator_main.xml",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\menu\\visi_navigator_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\resi_main_menu.xml",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\menu\\resi_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\event_menu.xml",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\menu\\event_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_visi_navigator_main_drawer.xml",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\menu\\activity_visi_navigator_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_resi_main_menu_drawer.xml",
+        "source": "C:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\src\\main\\res\\menu\\activity_resi_main_menu_drawer.xml"
+    }
+]

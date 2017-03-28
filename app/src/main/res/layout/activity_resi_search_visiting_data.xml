@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resi_search_visiting_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    tools:context="com.example.fypyau.resisafe.ResiSearchVisitingDataActivity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchspinner"
+        android:entries="@array/visit_search_typearrays"
+        android:layout_alignBottom="@+id/etSearchQuery"
+        android:layout_toRightOf="@+id/etSearchQuery"
+        android:layout_toEndOf="@+id/etSearchQuery"
+        android:layout_alignTop="@+id/etSearchQuery" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSearch"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Search by specific date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/searchspinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Search Visiting Data"
+        android:textSize = "35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/tvSearchTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Search By Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey"
+        android:ems="10"
+        android:id="@+id/etSearchQuery"
+        android:layout_below="@+id/tvSearchTitle"
+        android:layout_alignRight="@+id/btnSearch"
+        android:layout_alignEnd="@+id/btnSearch"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/tvChosendate"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignLeft="@+id/etSearchQuery"
+        android:layout_alignStart="@+id/etSearchQuery"
+        android:visibility="gone"/>
+
+</RelativeLayout>

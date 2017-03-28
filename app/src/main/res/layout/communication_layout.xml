@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/checkoutred"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Need Help?"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/btnCall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:text="You are one cick away to our security staffs"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="62dp"
+        android:layout_above="@+id/btnCall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Call Security Office"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCall"
+        android:layout_marginBottom="194dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

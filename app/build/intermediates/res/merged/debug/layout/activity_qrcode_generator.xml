@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_qrcode_generator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fypyau.resisafe.QRcodeGeneratorActivity">
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOK"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:id= "@+id/qrcodeimage"
+            android:background="@drawable/qrcodeback"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="David's Swimming Day "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/eventname"
+        android:textSize="20dp"
+        android:paddingBottom="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/qrcodeimage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Swimming Pool"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity=""
+        android:textSize="20dp"
+        android:background="@drawable/eventbackgroundpool"
+        android:id="@+id/eventlocation"
+        android:layout_below="@+id/eventname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/scan"
+        android:id="@+id/imageView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TO"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:id="@+id/textView34"
+        android:layout_alignBaseline="@+id/endtime"
+        android:layout_alignBottom="@+id/endtime"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TO"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/textView35"
+        android:layout_alignBottom="@+id/startdate"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignEnd="@+id/textView34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:text="25/02/2017"
+        android:id="@+id/enddate"
+        android:layout_alignBottom="@+id/textView35"
+        android:layout_alignRight="@+id/qrcodeimage"
+        android:layout_alignEnd="@+id/qrcodeimage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:textSize="30dp"
+        android:shadowColor="@color/black"
+        android:text="15:00"
+        android:id="@+id/endtime"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/startdate"
+        android:layout_alignRight="@+id/startdate"
+        android:layout_alignEnd="@+id/startdate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:textSize="30dp"
+        android:shadowColor="@color/black"
+        android:text="18:00"
+        android:id="@+id/starttime"
+        android:layout_alignBaseline="@+id/textView34"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignLeft="@+id/enddate"
+        android:layout_alignStart="@+id/enddate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:text="25/02/2017"
+        android:layout_marginTop="27dp"
+        android:id="@+id/startdate"
+        android:layout_below="@+id/eventlocation"
+        android:layout_alignLeft="@+id/qrcodeimage"
+        android:layout_alignStart="@+id/qrcodeimage" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/qrcodeimageX"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

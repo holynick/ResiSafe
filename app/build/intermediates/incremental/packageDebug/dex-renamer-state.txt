@@ -1,0 +1,7 @@
+#Mon Mar 27 14:49:32 SGT 2017
+base.0=C\:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_263deb741e101601e41861a5d7c8423c03c88a10
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2be2fb14dabfae97c620d01829923af71dab1109\\classes.dex
+base.1=C\:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2be2fb14dabfae97c620d01829923af71dab1109
+file.0=C\:\\Users\\Nick Yau\\AndroidStudioProjects\\ResiSafe\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_263deb741e101601e41861a5d7c8423c03c88a10\\classes.dex

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_redemption_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/turqoiseblue"
+    tools:context="com.example.fypyau.resisafe.EventRedemptionCodeActivity">
+
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOK"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/rounded_edittext_states"
+        android:id="@+id/enddate"
+        android:text="Empty"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_above="@+id/btnOK"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/rounded_edittext_states"
+        android:id="@+id/startdate"
+        android:text="Empty"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_above="@+id/textView32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start From:"
+        android:textColor="@color/white"
+        android:paddingBottom="2dp"
+        android:id="@+id/textView31"
+        android:layout_above="@+id/startdate"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End From:"
+        android:textColor="@color/white"
+        android:paddingBottom="2dp"
+        android:gravity="center"
+        android:id="@+id/textView32"
+        android:layout_above="@+id/enddate"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignRight="@+id/textView31"
+        android:layout_alignEnd="@+id/textView31" />
+
+    <TextView
+        android:text="TextView"
+        android:textStyle="bold"
+        android:background="@drawable/back"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textColor="@color/darkgrey"
+        android:id="@+id/tvRedCode"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30dp"
+        android:layout_above="@+id/eventname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:text="Your Event Has been successfully created! Below is your redemption code:"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/tvTitle"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Empty"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/bluegrey"
+        android:id="@+id/eventname"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

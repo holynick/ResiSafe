@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/genre</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/common_google_signin_btn_text_dark_pressed</item>
+        <item name="android:textColorSecondary">@color/common_google_signin_btn_text_dark_pressed</item>
+        <item name="android:textColorPrimary">@color/common_google_signin_btn_text_dark_focused</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Resisafemenu" parent="AppTheme">
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">
+            @color/common_google_signin_btn_text_dark_focused
+        </item>
+        <item name="android:textColorSecondary">@color/common_google_signin_btn_text_dark_focused
+        </item>
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="Resisafemenu.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Resisafemenu.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Resisafemenu.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
